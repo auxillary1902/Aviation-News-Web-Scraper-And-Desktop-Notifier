@@ -3,12 +3,12 @@
 * The script scrapes the headlines and stores in json object newsData.json
 * It then uses the object to display desktop notifications using the package **Notify2**
 
-###Requirements:
+### Requirements:
 1) bs4
 2) notify2
 3) requests
 
-###To run the script
+### To run the script
 1) clone the repository
 2) run  `python scriptCaller.py`
 
