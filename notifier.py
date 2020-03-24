@@ -1,5 +1,13 @@
 import time
 import notify2
+import json
+
+with open('newsData.json') as json_data:
+	jsonData = json.load(json_data)
+
+
+for i in jsonData:
+	print(i['url'])
 
 notify2.init('News Notifier')
 n = notify2.Notification(None)
